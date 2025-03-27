@@ -92,3 +92,41 @@ header {
   z-index: -1;
   position: absolute;
 }
+
+.btn {
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: david libre;
+  border-top-left-radius: 0.938rem;
+  border-bottom-right-radius: 0.938rem;
+  border-bottom-left-radius: 0.313rem;
+  border-top-right-radius: 0.313rem;
+  font-size: 1.25rem;
+}
+
+.btn-hero-menu {
+  background-color: #101a24;
+}
+
+.hero {
+  display: flex;
+}
+.hero-content {
+  display: flex;
+}
+
+.hero-title {
+  font-size: 3rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+}
+
+.hero-ambient-image {
+  border-top-left-radius: 5.25rem;
+  border-bottom-right-radius: 5.25rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
