@@ -19,7 +19,7 @@ header {
 .logo-restaurant {
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 2.5rem;
 }
 
 .logo-restaurant img {
@@ -39,14 +39,14 @@ header {
 }
 
 .nav-item {
-  margin: 0px 15px; /* espaçamento entre os itens do nav*/
+  margin: 0rem 0.938rem; /* espaçamento entre os itens do nav*/
 }
 
 .nav-link {
   text-decoration: none;
   color: #101a24;
   font-family: inter;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .nav-button {
@@ -59,15 +59,36 @@ header {
   background-color: #ea6d27;
   text-decoration: none;
   color: #fff;
-  padding: 16px 32px;
+  padding: 1rem 2rem;
   font-family: david libre;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  font-size: 20px;
+  border-top-left-radius: 0.938rem;
+  border-bottom-right-radius: 0.938rem;
+  border-bottom-left-radius: 0.313rem;
+  border-top-right-radius: 0.313rem;
+  font-size: 1.25rem;
 }
 
 .btn-book-a-table a {
   text-decoration: none;
+}
+
+.border {
+  top: 0rem;
+  left: -6.25rem;
+  z-index: -1;
+  position: absolute;
+}
+
+.second-border {
+  top: -4.063rem;
+  left: -3.125rem;
+  z-index: -1;
+  position: absolute;
+}
+
+.third-border {
+  top: 0rem;
+  left: -0.625rem;
+  z-index: -1;
+  position: absolute;
 }
