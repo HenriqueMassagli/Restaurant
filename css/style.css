@@ -117,17 +117,74 @@ body {
 
 .hero {
   display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
+
 .hero-content {
+  display: flex;
+  gap: 2rem;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 5rem;
 }
 
 .hero-title {
-  padding: 1.5rem 5rem;
   font-size: 4rem;
+  color: #101a24;
 }
 
 .hero-text {
   font-size: 1rem;
+  color: #5c6574;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.563rem;
+}
+
+.hero-social-media {
+  display: flex;
+  gap: 1.0653rem;
+}
+
+.hero-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.hero-link i {
+  font-size: 16px;
+}
+
+#facebook {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+#instagram {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+#twitter {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
 }
 
 .hero-container {
