@@ -117,39 +117,86 @@ body {
 
 .hero {
   display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin: 1rem 2rem;
 }
+
 .hero-content {
+  display: flex;
+  gap: 2rem;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 5rem;
 }
 
 .hero-title {
-  padding: 1.5rem 5rem;
   font-size: 4rem;
+  color: #101a24;
 }
 
 .hero-text {
   font-size: 1rem;
+  color: #5c6574;
 }
 
-.hero-container {
-  position: relative;
-  width: 500px; /* Ajuste para o tamanho desejado */
-  height: 500px;
-}
-.hero-ambient-image {
+.hero-buttons {
   display: flex;
-  justify-content: center;
+  gap: 1.563rem;
+}
+
+.hero-social-media {
+  display: flex;
+  gap: 1.0653rem;
+}
+
+.hero-link {
+  display: flex;
   align-items: center;
-  position: absolute;
-  left: 400px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.hero-link i {
+  font-size: 16px;
+}
+
+#facebook {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+#instagram {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+#twitter {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.hero-ambient-image {
+  width: 70%;
   border-top-left-radius: 5.25rem;
   border-bottom-right-radius: 5.25rem;
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
 .hero-image-plate {
-  position: relative;
-  top: 80%; /* Ajusta a posição vertical */
-  left: 50%; /* Ajusta a posição horizontal */
-  transform: translate(-50%, -50%); /* Centraliza a imagem sobreposta */
-  width: 150px; /* Ajuste conforme necessário */
+  position: absolute;
+  left: 63.5%;
+  transform: translate(-75%, -105%); /* Centraliza a imagem sobreposta */
+  width: 255px; /* Ajuste conforme necessário */
+  z-index: 1;
 }
