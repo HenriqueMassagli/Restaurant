@@ -188,10 +188,13 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.container-hero-images {
+  margin-top: 20px;
+}
 .hero-ambient-image {
   width: 70%;
-  border-top-left-radius: 5.25rem;
-  border-bottom-right-radius: 5.25rem;
+  border-top-left-radius: 4.25rem;
+  border-bottom-right-radius: 4.25rem;
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
@@ -202,6 +205,28 @@ body {
   width: 255px; /* Ajuste conforme necessário */
   z-index: 1;
 }
+
+.hero-img-first-plant {
+  position: absolute;
+  left: 61.5%;
+  transform: translate(-40%, -505%);
+  width: 255px;
+  z-index: -1;
+}
+.hero-img-second-plant {
+  position: absolute;
+  left: 82.5%;
+  transform: translate(-22%, -360%);
+  width: 12%;
+  z-index: -1;
+}
+.hero-img-third-plant {
+  position: absolute;
+  left: 82.5%;
+  transform: translate(1%, -115%);
+  width: 12.3%;
+  z-index: -1;
+
 
 .our-special-dishes {
   display: flex;
@@ -225,4 +250,5 @@ body {
   font-size: 1rem;
   color: #5c6574;
   font-family: inter;
+
 }
