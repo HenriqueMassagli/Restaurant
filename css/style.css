@@ -10,6 +10,12 @@
 header {
 }
 
+html,
+body {
+  overflow-x: hidden; /* Remove o scroll horizontal */
+  width: 100vw; /* Garante que nada ultrapasse a largura da tela */
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -113,20 +119,37 @@ header {
   display: flex;
 }
 .hero-content {
-  display: flex;
 }
 
 .hero-title {
-  font-size: 3rem;
+  padding: 1.5rem 5rem;
+  font-size: 4rem;
 }
 
 .hero-text {
   font-size: 1rem;
 }
 
+.hero-container {
+  position: relative;
+  width: 500px; /* Ajuste para o tamanho desejado */
+  height: 500px;
+}
 .hero-ambient-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 400px;
   border-top-left-radius: 5.25rem;
   border-bottom-right-radius: 5.25rem;
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+.hero-image-plate {
+  position: relative;
+  top: 80%; /* Ajusta a posição vertical */
+  left: 50%; /* Ajusta a posição horizontal */
+  transform: translate(-50%, -50%); /* Centraliza a imagem sobreposta */
+  width: 150px; /* Ajuste conforme necessário */
 }
