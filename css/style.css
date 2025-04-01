@@ -133,11 +133,13 @@ body {
 .hero-title {
   font-size: 4rem;
   color: #101a24;
+  font-family: david libre;
 }
 
 .hero-text {
   font-size: 1rem;
   color: #5c6574;
+  font-family: inter;
 }
 
 .hero-buttons {
@@ -199,4 +201,28 @@ body {
   transform: translate(-75%, -105%); /* Centraliza a imagem sobreposta */
   width: 255px; /* Ajuste conforme necessário */
   z-index: 1;
+}
+
+.our-special-dishes {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeefef;
+  padding: 5rem 2rem;
+}
+
+.our-special-dishes-content {
+}
+
+.our-special-dishes-title {
+  text-align: center;
+  font-family: david libre;
+  color: #101a24;
+  font-size: 2.8rem;
+}
+
+.our-special-dishes-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #5c6574;
+  font-family: inter;
 }
