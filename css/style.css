@@ -250,6 +250,44 @@ body {
   margin-top: 1.313rem;
 }
 
+.welcome-to-our-restaurant {
+  background-color: #eeefef;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.welcome-content {
+  display: flex;
+  gap: 3rem;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.welcome-title {
+  font-size: 2.8rem;
+  color: #101a24;
+  font-family: david libre;
+}
+
+.welcome-text {
+  font-size: 1rem;
+  font-family: inter;
+  color: #5c6574;
+}
+
+.welcome-buttons {
+  display: flex;
+  gap: 1.563rem;
+}
+
+.welcome-image img {
+  margin-left: 5rem;
+  margin-top: -100px;
+  width: 70%;
+}
+
 .our-special-dishes-flex {
   display: flex;
   gap: 1.875rem;
