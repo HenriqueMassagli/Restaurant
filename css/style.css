@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -118,7 +116,6 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
   margin: 1rem 2rem;
 }
 
@@ -250,6 +247,7 @@ body {
   font-size: 1rem;
   color: #5c6574;
   font-family: inter;
+  margin-top: 1.313rem;
 }
 
 .welcome-to-our-restaurant {
@@ -261,7 +259,6 @@ body {
 
 .welcome-content {
   display: flex;
-
   gap: 3rem;
   max-width: 50%;
   flex-direction: column;
@@ -289,4 +286,35 @@ body {
   margin-left: 5rem;
   margin-top: -100px;
   width: 70%;
+}
+
+.our-special-dishes-flex {
+  display: flex;
+  gap: 1.875rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-special-dishes img {
+  width: 60%;
+}
+
+.our-special-dishes-box {
+  width: 12.563rem;
+  background-color: #eeefef;
+  height: 18.688rem;
+  border-top-left-radius: 4.25rem;
+  border-bottom-right-radius: 4.25rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 0.094rem solid white;
+  gap: 1.875rem;
+  margin-top: 2rem;
 }
