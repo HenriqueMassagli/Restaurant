@@ -8,10 +8,9 @@
 header {
 }
 
-html,
 body {
-  overflow-x: hidden; /* Remove o scroll horizontal */
-  width: 100vw; /* Garante que nada ultrapasse a largura da tela */
+  overflow-x: hidden;
+  height: 100dvh;
 }
 
 .nav-bar {
@@ -43,7 +42,7 @@ body {
 }
 
 .nav-item {
-  margin: 0rem 0.938rem; /* espaçamento entre os itens do nav*/
+  margin: 0rem 0.938rem;
 }
 
 .nav-link {
@@ -157,36 +156,36 @@ body {
 }
 
 .hero-link i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #facebook {
   border: solid black;
-  border-width: 1px;
-  border-radius: 20px;
+  border-width: 0.063rem;
+  border-radius: 1.25rem;
   width: 2rem;
   height: 2rem;
   color: rgb(0, 0, 0);
 }
 #instagram {
   border: solid black;
-  border-width: 1px;
-  border-radius: 20px;
+  border-width: 0.063rem;
+  border-radius: 1.25rem;
   width: 2rem;
   height: 2rem;
   color: rgb(0, 0, 0);
 }
 #twitter {
   border: solid black;
-  border-width: 1px;
-  border-radius: 20px;
+  border-width: 0.063rem;
+  border-radius: 1.25rem;
   width: 2rem;
   height: 2rem;
   color: rgb(0, 0, 0);
 }
 
 .container-hero-images {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .hero-ambient-image {
   width: 70%;
@@ -198,8 +197,8 @@ body {
 .hero-image-plate {
   position: absolute;
   left: 63.5%;
-  transform: translate(-75%, -105%); /* Centraliza a imagem sobreposta */
-  width: 255px; /* Ajuste conforme necessário */
+  transform: translate(-75%, -105%);
+  width: 15.938rem;
   z-index: 1;
 }
 
@@ -207,7 +206,7 @@ body {
   position: absolute;
   left: 61.5%;
   transform: translate(-40%, -505%);
-  width: 255px;
+  width: 15.938rem;
   z-index: -1;
 }
 .hero-img-second-plant {
@@ -250,6 +249,37 @@ body {
   margin-top: 1.313rem;
 }
 
+.our-special-dishes-flex {
+  display: flex;
+  gap: 1.875rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-special-dishes img {
+  width: 60%;
+}
+
+.our-special-dishes-box {
+  width: 12.563rem;
+  background-color: #eeefef;
+  height: 18.688rem;
+  border-top-left-radius: 4.25rem;
+  border-bottom-right-radius: 4.25rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 0.094rem solid white;
+  gap: 1.875rem;
+  margin-top: 2rem;
+}
+
 .welcome-to-our-restaurant {
   background-color: #eeefef;
   display: flex;
@@ -286,35 +316,4 @@ body {
   margin-left: 5rem;
   margin-top: -100px;
   width: 70%;
-}
-
-.our-special-dishes-flex {
-  display: flex;
-  gap: 1.875rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.our-special-dishes img {
-  width: 60%;
-}
-
-.our-special-dishes-box {
-  width: 12.563rem;
-  background-color: #eeefef;
-  height: 18.688rem;
-  border-top-left-radius: 4.25rem;
-  border-bottom-right-radius: 4.25rem;
-  border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.08);
-  padding: 1.25rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  border: 0.094rem solid white;
-  gap: 1.875rem;
-  margin-top: 2rem;
 }
