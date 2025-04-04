@@ -257,7 +257,9 @@ body {
 }
 
 .our-special-dishes img {
-  width: 60%;
+  width: 70%;
+  position: absolute;
+  top: -20%;
 }
 
 .our-special-dishes-box {
@@ -277,7 +279,9 @@ body {
   justify-content: flex-start;
   border: 0.094rem solid white;
   gap: 1.875rem;
-  margin-top: 2rem;
+  margin-top: 7rem;
+  position: relative;
+  overflow: visible;
 }
 
 .welcome-to-our-restaurant {
@@ -285,14 +289,15 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .welcome-content {
   display: flex;
   gap: 3rem;
-  max-width: 50%;
   flex-direction: column;
-  margin: 5rem;
+  margin-right: 11rem;
+  margin-top: 11.25rem;
 }
 
 .welcome-title {
@@ -312,8 +317,7 @@ body {
   gap: 1.563rem;
 }
 
-.welcome-image img {
+.prato-arrombado {
   margin-left: 5rem;
-  margin-top: -100px;
-  width: 70%;
+  width: 50%;
 }
