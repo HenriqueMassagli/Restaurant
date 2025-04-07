@@ -334,3 +334,38 @@ body {
   margin-left: 5rem;
   width: 50%;
 }
+
+.seventh-plant {
+  position: absolute;
+  transform: translate(400%, 20%);
+  width: 20%;
+}
+.welcome-fourth-plant {
+  position: absolute;
+  transform: translate(465%, -100%);
+  width: 12%;
+}
+
+.leaf-green {
+  position: absolute;
+  transform: translate(405%, -197%);
+  width: 12%;
+}
+
+.second-leaf-green {
+  position: absolute;
+  transform: translate(133%, -53%);
+  width: 7%;
+}
+
+.piece-of-garlic-image {
+  position: absolute;
+  transform: translate(725%, 203%);
+  width: 7%;
+}
+
+.garlic-image {
+  position: absolute;
+  transform: translate(840%, 280%);
+  width: 7%;
+}
