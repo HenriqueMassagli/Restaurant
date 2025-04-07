@@ -297,12 +297,32 @@ body {
   overflow: visible;
 }
 
+.first-plant-our-special-dishes {
+  position: absolute;
+  transform: translate(147%, -354%);
+  width: 15%;
+}
+
+.second-plant-our-special-dishes {
+  position: absolute;
+  transform: translate(525%, -300%);
+  width: 12%;
+}
+
+.third-plant-our-special-dishes {
+  position: absolute;
+  transform: translate(220%, -20%);
+  width: 20%;
+
+}
+
 .welcome-to-our-restaurant {
   background-color: #eeefef;
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
+  padding: 2rem 10rem;
 }
 
 .welcome-content {
@@ -368,4 +388,5 @@ body {
   position: absolute;
   transform: translate(840%, 280%);
   width: 7%;
-}
+
+
