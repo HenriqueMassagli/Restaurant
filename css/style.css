@@ -48,7 +48,7 @@ body {
 .nav-link {
   text-decoration: none;
   color: #101a24;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
 }
 
@@ -63,7 +63,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 1rem 2rem;
-  font-family: david libre;
+  font-family: "David Libre", serif;
   border-top-left-radius: 0.938rem;
   border-bottom-right-radius: 0.938rem;
   border-bottom-left-radius: 0.313rem;
@@ -100,7 +100,7 @@ body {
   color: #fff;
   padding: 1rem 2rem;
   text-decoration: none;
-  font-family: david libre;
+  font-family: "David Libre", serif;
   border-top-left-radius: 0.938rem;
   border-bottom-right-radius: 0.938rem;
   border-bottom-left-radius: 0.313rem;
@@ -129,13 +129,13 @@ body {
 .hero-title {
   font-size: 4rem;
   color: #101a24;
-  font-family: david libre;
+  font-family: "David Libre", serif;
 }
 
 .hero-text {
   font-size: 1rem;
   color: #5c6574;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
 }
 
 .hero-buttons {
@@ -236,7 +236,7 @@ body {
 
 .our-special-dishes-title {
   text-align: center;
-  font-family: david libre;
+  font-family: "David Libre", serif;
   color: #101a24;
   font-size: 2.8rem;
 }
@@ -245,7 +245,7 @@ body {
   text-align: center;
   font-size: 1rem;
   color: #5c6574;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   margin-top: 1.313rem;
 }
 
@@ -261,11 +261,24 @@ body {
   position: absolute;
   top: -20%;
 }
+.dishes-title {
+  font-family: "David Libre", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #101a24;
+  margin-top: 8rem;
+}
+.dishes-description {
+  text-align: center;
+  font-size: 1rem;
+  color: #5c6574;
+  font-family: "Inter", sans-serif;
+}
 
 .our-special-dishes-box {
   width: 12.563rem;
   background-color: #eeefef;
-  height: 18.688rem;
+  height: 16.688rem;
   border-top-left-radius: 4.25rem;
   border-bottom-right-radius: 4.25rem;
   border-bottom-left-radius: 1rem;
@@ -303,12 +316,12 @@ body {
 .welcome-title {
   font-size: 2.8rem;
   color: #101a24;
-  font-family: david libre;
+  font-family: "David Libre", serif;
 }
 
 .welcome-text {
   font-size: 1rem;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   color: #5c6574;
 }
 
@@ -317,7 +330,7 @@ body {
   gap: 1.563rem;
 }
 
-.prato-arrombado {
+.welcome-plate {
   margin-left: 5rem;
   width: 50%;
 }
