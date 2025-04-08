@@ -313,7 +313,6 @@ body {
   position: absolute;
   transform: translate(220%, -20%);
   width: 20%;
-
 }
 
 .welcome-to-our-restaurant {
@@ -322,7 +321,7 @@ body {
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
-  padding: 2rem 10rem;
+  padding: 15rem 10rem;
 }
 
 .welcome-content {
@@ -388,5 +387,27 @@ body {
   position: absolute;
   transform: translate(840%, 280%);
   width: 7%;
+}
 
+.our-happy-customers {
+  text-align: center;
+  background-color: #eeefef;
+}
 
+.our-happy-customers-content {
+}
+
+.our-happy-customers-title {
+  text-align: center;
+  font-family: "David Libre", serif;
+  color: #101a24;
+  font-size: 2.8rem;
+}
+
+.our-happy-customers-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #5c6574;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.313rem;
+}
