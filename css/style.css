@@ -384,11 +384,13 @@ body {
 }
 
 .our-happy-customers {
+  padding: 200px;
   text-align: center;
   background-color: #eeefef;
 }
 
 .our-happy-customers-content {
+  
 }
 
 .our-happy-customers-title {
@@ -405,6 +407,59 @@ body {
   font-family: "Inter", sans-serif;
   margin-top: 1.313rem;
 }
+
+
+.our-happy-customers-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.our-happy-customers-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 80px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 30px;
+  background-color: #ffffff;
+  margin-top: 100px;
+  width: 500px;
+  height: 2rem
+  gap: 20px;
+}
+
+.our-happy-customers-person-image {
+  position: absolute;
+  width: 8%;
+  border-radius: 50%;
+  margin-top: -18rem ;
+}
+
+.stars {
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.our-happy-customers-review {
+  text-align: center;
+  font-size: 1rem;
+  color: #5c6574;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.313rem;
+}
+
+.our-happy-customers-name {
+  margin-top: 30px;
+}
+
+.highlight-name {
+  font-weight: bold;
+  font-family: "Inter";
+  color: black;
 
 .newsletter-subscribe {
   margin-top: 12.5rem;
@@ -544,4 +599,5 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 2rem;
+
 }
