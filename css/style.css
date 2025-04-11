@@ -426,7 +426,7 @@ body {
   background-color: #ffffff;
   margin-top: 6.25rem;
   width: 31.25rem;
-  height: 2rem;
+  height: 22rem;
   gap: 1.25rem;
 }
 
@@ -434,12 +434,12 @@ body {
   position: absolute;
   width: 8%;
   border-radius: 50%;
-  margin-top: -18rem;
+  margin-top: -22rem;
 }
 
 .stars {
   padding: 0.313rem;
-  margin-top: 3.125rem;
+  margin-top: 0.125rem;
 }
 
 .our-happy-customers-review {
@@ -447,11 +447,11 @@ body {
   font-size: 1rem;
   color: #5c6574;
   font-family: "Inter", sans-serif;
-  margin-top: 1.313rem;
+  margin-top: 0.313rem;
 }
 
 .our-happy-customers-name {
-  margin-top: 1.875rem;
+  margin-top: 0.5rem;
 }
 
 .highlight-name {
