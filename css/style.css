@@ -47,6 +47,12 @@ body {
   color: #101a24;
   font-family: "Inter", sans-serif;
   font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ea6d27;
+  letter-spacing: 0.3rem;
 }
 
 .nav-button {
@@ -103,6 +109,11 @@ body {
   border-bottom-left-radius: 0.313rem;
   border-top-right-radius: 0.313rem;
   font-size: 1.25rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .btn-hero-menu {
@@ -156,6 +167,10 @@ body {
   font-size: 1rem;
 }
 
+.hero-link:hover {
+  background-color: #ea6d27;
+}
+
 #facebook {
   border: solid black;
   border-width: 0.063rem;
@@ -194,7 +209,7 @@ body {
 .hero-image-plate {
   position: absolute;
   left: 63.5%;
-  transform: translate(-75%, -105%);
+  transform: translate(-92%, -105%);
   width: 15.938rem;
   z-index: 1;
 }
@@ -202,21 +217,21 @@ body {
 .hero-img-first-plant {
   position: absolute;
   left: 61.5%;
-  transform: translate(-40%, -505%);
+  transform: translate(-65%, -500%);
   width: 15.938rem;
   z-index: -1;
 }
 .hero-img-second-plant {
   position: absolute;
   left: 82.5%;
-  transform: translate(-22%, -360%);
+  transform: translate(-38%, -380%);
   width: 12%;
   z-index: -1;
 }
 .hero-img-third-plant {
   position: absolute;
   left: 82.5%;
-  transform: translate(1%, -115%);
+  transform: translate(-15%, -115%);
   width: 12.3%;
   z-index: -1;
 }
@@ -289,6 +304,12 @@ body {
   margin-top: 7rem;
   position: relative;
   overflow: visible;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease;
+}
+
+.our-special-dishes-box:hover {
+  transform: scale(1.1);
+  border-color: #ea6d27;
 }
 
 .first-plant-our-special-dishes {
@@ -322,7 +343,7 @@ body {
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  margin-right: 11rem;
+  margin-right: 5rem;
   margin-top: 11.25rem;
 }
 
@@ -344,7 +365,6 @@ body {
 }
 
 .welcome-plate {
-  margin-left: 5rem;
   width: 50%;
 }
 
@@ -384,8 +404,8 @@ body {
 }
 
 .our-happy-customers {
-  text-align: center;
   background-color: #eeefef;
+  padding-top: 8rem;
 }
 
 .our-happy-customers-content {
@@ -515,6 +535,12 @@ input[type="radio"] {
   color: black;
 }
 
+.pan-image-our-happy-customers {
+  position: absolute;
+  transform: translate(1%, -5%);
+  width: 35%;
+}
+
 .newsletter-subscribe {
   margin-top: 10rem;
   margin-bottom: 6.25rem;
@@ -549,6 +575,8 @@ input[type="radio"] {
   border: 0rem;
   border-radius: 0.938rem;
   margin-top: 12.5rem;
+  outline: none;
+  box-shadow: none;
 }
 
 .newsletter-subscribe-button {
@@ -562,6 +590,12 @@ input[type="radio"] {
   margin-left: 21.875rem;
   border: 0rem;
   margin-top: 12.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.newsletter-subscribe-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .footer {
@@ -596,8 +630,13 @@ input[type="radio"] {
   font-family: "Inter";
   color: #5c6574;
   display: flex;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
-
+.footer-list .footer-link:hover {
+  color: #ea6d27;
+  transform: scale(1.1);
+}
 .list-title {
   font-family: "Inter";
   color: #101a24;
