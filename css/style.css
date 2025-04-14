@@ -430,8 +430,8 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 1801px;
-  height: 500px;
+  width: 100%;
+  height: 550px;
   overflow: hidden;
   border-radius: 15px;
   margin-top: 3rem;
@@ -449,29 +449,36 @@ body {
 }
 
 .nav-slide {
-  bottom: -390%;
   display: flex;
   gap: 5px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .nav-slide label {
-  width: 15px;
-  height: 15px;
-  background: white;
+  width: 12px;
+  height: 12px;
+  background: #101a24;
+  opacity: 20%;
   border-radius: 50%;
-  border: 2px solid gray;
   cursor: pointer;
   transition: background 0.3s;
+  margin-top: 4rem;
 }
 
 .nav-slide label:hover {
-  background: gray;
+  background: #ea6d27;
 }
 
 input[type="radio"] {
   display: none;
 }
+#slide1:checked ~ .nav-slide label[for="slide1"],
+#slide2:checked ~ .nav-slide label[for="slide2"],
+#slide3:checked ~ .nav-slide label[for="slide3"] {
+  background: #ea6d27;
+  opacity: 1;
+}
+
 #slide1:checked ~ .slides {
   transform: translateX(24.38%);
 }
@@ -487,6 +494,7 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   gap: 15rem;
+  margin-left: 32rem;
 }
 
 .our-happy-customers-review {
