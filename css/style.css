@@ -384,7 +384,6 @@ body {
 }
 
 .our-happy-customers {
-  padding: 10rem;
   text-align: center;
   background-color: #eeefef;
 }
@@ -407,14 +406,10 @@ body {
   margin-top: 1.313rem;
 }
 
-.our-happy-customers-flex {
-  display: flex;
-  justify-content: center;
-}
-
-.our-happy-customers-box {
+.slide {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   justify-content: center;
   text-align: center;
   flex-direction: column;
@@ -424,15 +419,26 @@ body {
   border-bottom-right-radius: 5rem;
   border-bottom-left-radius: 1.875rem;
   background-color: #ffffff;
-  margin-top: 6.25rem;
   width: 31.25rem;
-  height: 22rem;
+  height: 25rem;
   gap: 1.25rem;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1801px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 3rem;
 }
 
 .our-happy-customers-person-image {
   position: absolute;
-  width: 8%;
   border-radius: 50%;
   margin-top: -22rem;
 }
@@ -440,6 +446,47 @@ body {
 .stars {
   padding: 0.313rem;
   margin-top: 0.125rem;
+}
+
+.nav-slide {
+  bottom: -390%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-slide label {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid gray;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-slide label:hover {
+  background: gray;
+}
+
+input[type="radio"] {
+  display: none;
+}
+#slide1:checked ~ .slides {
+  transform: translateX(24.38%);
+}
+#slide2:checked ~ .slides {
+  transform: translateX(-13%);
+}
+#slide3:checked ~ .slides {
+  transform: translateX(-50.38%);
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
 }
 
 .our-happy-customers-review {
