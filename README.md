@@ -8,22 +8,26 @@ A modern, responsive landing page designed for a restaurant
  <img width="947" alt="image" src="https://github.com/user-attachments/assets/f37c1ad2-a400-409d-8833-be9b445232f8" />
 </p>
 
-## 📋 Features
+<h2 align="center">✨ Features</h2>
 
-- **Interactive Elements**: Testimonial carousel, navigation menu, and CTA buttons
-- **Special Dishes Section**: Highlighting the restaurant's signature meals
-- **Customer Testimonials**: Carousel showcasing customer reviews
-- **Modern UI**: Clean design with plant-themed accents and elegant typography
+
+<h4 align="center">🎠 Testimonial carousel, navigation menu, and CTA buttons </h4>
+<h4 align="center">🍽️ Highlighting the restaurant's signature meals </h4>
+<h4 align="center">🌟 Carousel showcasing customer reviews </h4>
+<h4 align="center">🎨 Clean design with plant-themed accents and elegant typography </h4>
+
 
 <p align="center">
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/ff518e38-dd66-408e-b8f8-06e760a37e81" />
 </p>
+ 
+<h2> 🚀 Technologies Used </h2>
 
-## 🚀 Technologies Used
-
-- HTML5
-- CSS3
+- HTML5 
+- CSS3 
 - Font Awesome icons
+
+
 
 ## 🖥️ Installation
 
@@ -63,12 +67,6 @@ The main color scheme uses:
 - Text: #5C6574
 - Background: #eeefef
 
-These can be modified in the CSS file.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author´s
 
 Henrique Masasgli & Matheus Macedo
@@ -78,3 +76,9 @@ Henrique Masasgli & Matheus Macedo
 - Images from [Unsplash](https://unsplash.com)
 - Icons from [Font Awesome](https://fontawesome.com)
 - Design inspiration from [Figma](https://www.figma.com/community)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
