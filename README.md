@@ -2,8 +2,9 @@
 
 A modern, responsive landing page designed for a restaurant
 
-![Restaurant Landing Page Screenshot](<img width="947" alt="image" src="https://github.com/user-attachments/assets/b8ab97cd-59f4-4c58-8828-8c266aed156f" />
-)
+<p align="center">
+ <img width="947" alt="image" src="https://github.com/user-attachments/assets/f37c1ad2-a400-409d-8833-be9b445232f8" />
+</p>
 
 ## 📋 Features
 
