@@ -33,7 +33,7 @@ A modern, responsive landing page designed for a restaurant
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/restaurant.git
+git clone https://github.com/HenriqueMassagli/Restaurant.git
 ```
 
 2. Navigate to the project directory:
