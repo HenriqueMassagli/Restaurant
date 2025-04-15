@@ -15,6 +15,10 @@ A modern, responsive landing page designed for a restaurant
 - **Customer Testimonials**: Carousel showcasing customer reviews
 - **Modern UI**: Clean design with plant-themed accents and elegant typography
 
+<p align="center">
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/ff518e38-dd66-408e-b8f8-06e760a37e81" />
+</p>
+
 ## 🚀 Technologies Used
 
 - HTML5
