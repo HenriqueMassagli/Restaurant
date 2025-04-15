@@ -1,7 +1,7 @@
 <h1 align="center">  Restaurant </h1>
 
 <p align="center">
-A modern, responsive landing page designed for a restaurant
+A modern page designed for a restaurant
 </p>
 
 <p align="center">
