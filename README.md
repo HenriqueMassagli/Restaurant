@@ -1,4 +1,4 @@
-<h1 align="center"> # Restaurant Landing Page</h1>
+<h1 align="center">  Restaurant Landing Page</h1>
 
 <p align="center">
 A modern, responsive landing page designed for a restaurant
